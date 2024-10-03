@@ -33,7 +33,12 @@ Vestibulum sem lorem, pharetra in eros in, semper fermentum neque. Cras commodo 
 ## **Como mostrar codigo en un repo**
 
 ```
+$x = "Hello world!";
+$y = 'Hello world!';
 
+var_dump($x);
+echo "<br>";
+var_dump($y);
 
 
 ```
@@ -45,8 +50,18 @@ Vestibulum sem lorem, pharetra in eros in, semper fermentum neque. Cras commodo 
 ```
 
 ## Como poner imagenes 
+### Imagenes
 ![Meme Spiderman](Spiderman.jpeg "Que spiderman soy?")
+### Gif
+![Meme Spiderman](spidermangif.gif "Que spiderman soy?")
 ```
 ![TextoAlternativo](UbicacionDeLaImagen "Titulo Opcional")
 ```
+
+## Como poner tablas
+
+|Titulo 1| Titulo 2| Titulo 3|
+|----------|:--------------------:|------------:|
+|**Columna 1**| *Columna 2* | *Columna 3* |
+| 100|200 |300|
 
